@@ -30,7 +30,7 @@ The website was tested across different screen sizes, including desktop, tablet,
 
 🌐 Live Website
 
-"View Live Website" (YOUR_GITHUB_PAGES_LINK)
+"View Live Website" (https://cirisronaldo743-cmd.github.io/tapsi-web-clone/)
 
 ---
 
