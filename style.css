@@ -2,7 +2,9 @@ html {
   font-size: 100%;
   scroll-behavior: smooth;
 }
-
+:root {
+  color-scheme: light;
+}
 body {
   direction: rtl;
   font-family: vazirmatn, sans-serif;
