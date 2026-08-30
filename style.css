@@ -522,7 +522,7 @@ nav a:active {
 /* veblag */ /* veblag */ /* veblag */ /* veblag */ /* veblag */ /* veblag */ /* veblag */ /* veblag */
 
 .footer {
-  background: linear-gradient(to top, #acd0f8, #0b598a);
+  background: linear-gradient(to bottom, #6c7d8d, #bdc3c7);
   width: 100%;
   min-height: 230px;
   border-radius: 50px;
@@ -676,7 +676,7 @@ footer .icon img {
   .servise2_grid p {
     padding: 0 15px;
   }
-    .servise_card:hover {
+  .servise_card:hover {
     transform: scale(1.04);
   }
 
@@ -1128,9 +1128,6 @@ footer .icon img {
   }
   .servise2_grid h1 {
     font-size: 1.5rem;
-  }
-  .servise_card:hover {
-    transform: scale(1.05);
   }
   /* servise2_grid */ /* servise2_grid */ /* servise2_grid */
 
