@@ -169,17 +169,50 @@ nav a:active {
   align-items: center;
   opacity: 0.4;
   font-weight: bold;
+  animation: serviceFocus 6s infinite ease-in-out;
 }
-.servise_item:hover {
-  opacity: 1;
-  transform: rotateY(360deg) scale(1.1);
-  transition: transform 1.8s ease-in-out;
+@keyframes serviceFocus {
+  0%,
+  4% {
+    opacity: 0.35;
+    transform: translateY(0) scale(1);
+  }
+
+  10% {
+    opacity: 1;
+    transform: translateY(-7px) scale(1.04);
+  }
+
+  15% {
+    opacity: 1;
+    transform: translateY(-7px) scale(1.04);
+  }
+
+  22%,
+  100% {
+    opacity: 0.35;
+    transform: translateY(0) scale(1);
+  }
 }
-.servise_item:active {
-  opacity: 1;
-  transform: rotateY(360deg) scale(1.1);
-  transition: transform 1.8s ease-in-out;
+.servise_item:nth-child(1) {
+  animation-delay: 0s;
 }
+.servise_item:nth-child(2) {
+  animation-delay: 1s;
+}
+.servise_item:nth-child(3) {
+  animation-delay: 2s;
+}
+.servise_item:nth-child(4) {
+  animation-delay: 3s;
+}
+.servise_item:nth-child(5) {
+  animation-delay: 4s;
+}
+.servise_item:nth-child(6) {
+  animation-delay: 5s;
+}
+
 /* servise */ /* servise */ /* servise */ /* servise */ /* servise */ /* servise */ /* servise */ /* servise */ /* servise */
 .servise2_grid {
   display: grid;
@@ -1113,6 +1146,17 @@ footer .icon img {
   }
   .servise_item {
     flex: 0 0 auto;
+  }
+  .servise::-webkit-scrollbar {
+    height: 7px;
+  }
+  .servise::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 10px;
+  }
+  .servise::-webkit-scrollbar-track {
+    background-color: #eee;
+    border-radius: 10px;
   }
 
   /* servise */ /* servise */ /* servise */ /* servise */
